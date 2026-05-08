@@ -1,0 +1,7 @@
+world_state.json
+__pycache__/
+*.pyc
+.venv/
+.env
+*.egg-info/
+legacy/
