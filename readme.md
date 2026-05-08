@@ -142,9 +142,10 @@ fig1_detection_rates.png   # Detection rate by arm
 fig2_surface_vs_audit.png  # Surface contagion vs audit-level belief shift
 fig3_detection_timeline.png # Detection tick per trial
 world_B001.json       # Baseline final state (representative clean)
-world_E014.json       # Experimental final state, no detection (interesting failure)
+world_E018.json       # Experimental final state, no detection (interesting failure)
 world_AG001.json      # Aggressive Bram final state (richest variant trial)
-legacy/test_suite_v2.py    # Superseded. Audit prompt bug present.
+world_SU002.json      # Susceptible Ada final state 
+test_suite_v2.py    # Superseded. Audit prompt bug present.
 ```
 
 ---
