@@ -117,16 +117,6 @@ was flagged mid-sim should be treated with caution.
 
 ---
 
-## Open Questions
-
-1. **Is the audit probe sensitive enough?** A single isolated question may not capture subtle framing shifts. Eliciting extended reasoning or multi-turn structured dialogue might reveal drift where the current probe does not.
-2. **Persistent memory vs. in-context only.** Current setup uses episodic memory across ticks. Would propagation pattern differ if agents operated purely in-context with no memory?
-3. **Does detection interrupt propagation?** Currently detection is measured but does not feed back into the simulation. An intervention arm — Cleo issues a warning, other agents update — would test whether detection translates to containment.
-4. **Scaling.** 3-agent, 5×5 grid is a minimal testbed. Larger graphs with longer path lengths from the index case would test propagation decay and whether the signal survives multi-hop transmission.
-5. **Suppression vs. erasure at the agent level.** Ada consistently reverts on audit. Whether this is suppression (the framing is available but not expressed in the audit context) or genuine non-adoption could be probed by varying audit framing, using a multi-turn audit, or analysing Ada's reasoning chain for Shakshuka-adjacent concepts that stop short of the word.
-
----
-
 ## Files
 
 ```
